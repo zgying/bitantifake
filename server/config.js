@@ -3,7 +3,7 @@ const CONF = {
     rootPathname: '',
 
     // 微信小程序 App ID
-    appId: 'wxea4554d4a57f392a',
+    appId: '',
 
     // 微信小程序 App Secret
     appSecret: '',
@@ -27,15 +27,10 @@ const CONF = {
 
     cos: {
         /**
-         * 区域
-         * 华北：cn-north
-         * 华东：cn-east
-         * 华南：cn-south
-         * 西南：cn-southwest
-         * 新加坡：sg
-         * @see https://www.qcloud.com/document/product/436/6224
+         * 地区简称
+         * @查看 https://cloud.tencent.com/document/product/436/6224
          */
-        region: 'cn-south',
+        region: 'ap-guangzhou',
         // Bucket 名称
         fileBucket: 'qcloudtest',
         // 文件夹

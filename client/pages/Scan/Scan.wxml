@@ -1,0 +1,9 @@
+<!--pages/Scan/Scan.wxml-->
+
+<view class="main">
+    <view class="item logo"> 币防伪 </view>
+    <view class="item picarea"> <image class='pic' src="{{src}}" ></image>
+    </view>
+    <view class="item button"> <button class='btnscan' bindtap="tapScan" > 扫一扫 </button></view>
+    <view class="item qcode">{{text}}</view>
+  </view>
